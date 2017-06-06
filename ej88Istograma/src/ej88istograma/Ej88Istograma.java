@@ -7,7 +7,7 @@ lengua, en forma de número y en forma gráfica (histograma), utilizando líneas
 asteriscos.
  */
 package ej88istograma;
-
+import java.util.Scanner;
 /**
  *
  * @author Usuario
@@ -18,7 +18,19 @@ public class Ej88Istograma {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      
+
+      String [] alumnos = {"Alberti", "Azcuénaga", "Belgrano", "Castelli", "Larrea", "Matheu", "Moreno", "Paso", "Saavedra"};
+        
+        for (int i = 0; i < alumnos.length; i++) {
+            
+          
+          System.out.println(alumnos[i]); 
+            
+            
+        }
+        
+        
     }
     
 }
